@@ -1,0 +1,32 @@
+# Made by RandomHashTags
+settings:
+  command: "gshop"
+  accessibility:
+    cmd: true
+    npc: false
+  permissions:
+    cmd: "Merchants.gshop.cmd"
+    npc: "Merchants.gshop.npc"
+#
+title: "&d&lShop"
+size: 18
+
+items:
+  raid:
+    slot: 0
+    opens: RAID
+    item: "tnt:0"
+    name: "&d&nRaid Merchant"
+    lore:
+    - "&7\"TNT, Raiding Supplies, & More\""
+    - " "
+    - "&d&l(!)&r &dClick to access the &d&nRaid Merchant&r&d!"
+  base:
+    slot: 0
+    opens: BASE
+    item: "bucket:8"
+    name: "&d&nBase Merchant"
+    lore:
+    - "&7\"Tools, Base Making Supplies & More\""
+    - " "
+    - "&d&l(!)&r &dClick to access the &d&nBase Merchant&r&d!"
