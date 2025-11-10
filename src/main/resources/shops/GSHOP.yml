@@ -22,7 +22,7 @@ items:
     - " "
     - "&d&l(!)&r &dClick to access the &d&nRaid Merchant&r&d!"
   base:
-    slot: 0
+    slot: 1
     opens: BASE
     item: "bucket:8"
     name: "&d&nBase Merchant"
